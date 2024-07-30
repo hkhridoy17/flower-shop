@@ -10,7 +10,7 @@ body {
 section {
   max-width: 1320px;
   margin: 0 auto;
-  padding-top: 100px;
+  margin-top: 100px;
 }
 .pink {
   color: #e55473;
@@ -89,14 +89,14 @@ header {
   border-top-right-radius: 50%;
 }
 .single-featured-content img {
-  height: 80%;
+  width: 80%;
   object-fit: cover;
 }
 .single-featured-content a {
   font-size: 1.5rem;
   font-weight: bold;
   color: #272727;
-  display: block;
+  display: inline-block;
   margin-top: 24px;
 }
 .featured-01 {
@@ -107,4 +107,17 @@ header {
 }
 .featured-03 {
   background-color: rgba(71, 125, 17, 0.15);
+}
+
+.support {
+  background-color: rgba(39, 39, 39, 0.05);
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding: 80px 0;
+}
+.single-support-content p {
+  margin-top: 20px;
 }
