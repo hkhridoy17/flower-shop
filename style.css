@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+section {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+.pink {
+  color: #e55473;
+}
+.btn-primary {
+  padding: 15px 30px;
+  color: #ffffff;
+  background-color: #e55473;
+  font-weight: bold;
+  font-size: 1.25rem;
+  border: none;
+  border-radius: 8px;
+}
+.section-content {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+}
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #272727;
+  margin-bottom: 24px;
+}
+.section-info {
+  font-size: 1.25rem;
+  color: rgba(39, 39, 39, 0.6);
+  line-height: 1.875rem;
+}
+
+/* header section */
+header {
+  background-color: rgba(229, 84, 115, 0.1);
+}
+
+/* banner section */
+.banner {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 0.8fr;
+  align-items: center;
+  gap: 100px;
+}
+.banner-content h2 {
+  font-size: 5rem;
+  font-weight: 800;
+  color: #272727;
+  margin-bottom: 32px;
+}
+.banner-content p {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  color: rgba(39, 39, 39, 0.6);
+  margin-bottom: 32px;
+}
+.banner-image img {
+  width: 100%;
+  object-fit: cover;
+}
