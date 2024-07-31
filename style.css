@@ -10,7 +10,7 @@ body {
 section {
   max-width: 1320px;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-bottom: 100px;
 }
 .pink {
   color: #e55473;
@@ -79,6 +79,10 @@ header {
   text-align: center;
   margin-top: 50px;
 }
+.single-featured-content {
+  display: flex;
+  flex-direction: column;
+}
 .single-featured-content div {
   height: 100%;
   width: 100%;
@@ -111,7 +115,6 @@ header {
 
 .support {
   background-color: rgba(39, 39, 39, 0.05);
-  margin-top: 150px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -120,4 +123,23 @@ header {
 }
 .single-support-content p {
   margin-top: 20px;
+}
+
+/* offer section */
+.offer {
+  background-color: rgba(229, 84, 115, 0.05);
+}
+.offer-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  align-items: center;
+  text-align: center;
+  padding: 100px;
+}
+.offer-info p {
+  margin-bottom: 24px;
+}
+.offer-image img {
+  width: fit-content;
 }
