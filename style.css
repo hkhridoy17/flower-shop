@@ -135,11 +135,28 @@ header {
   gap: 50px;
   align-items: center;
   text-align: center;
-  padding: 100px;
+  padding: 100px 0;
+}
+.offer-info {
+  padding-left: 100px;
+}
+.offer-image {
+  padding-right: 100px;
 }
 .offer-info p {
   margin-bottom: 24px;
 }
 .offer-image img {
   width: fit-content;
+}
+
+/* classic section */
+.classic-content {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.classic-content-image img {
+  width: 100%;
 }
