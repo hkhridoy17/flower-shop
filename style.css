@@ -56,7 +56,7 @@ header {
   gap: 100px;
 }
 .banner-content h2 {
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 800;
   color: #272727;
   margin-bottom: 32px;
@@ -76,7 +76,7 @@ header {
 .featured-content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 50px;
   text-align: center;
   margin-top: 50px;
 }
@@ -87,6 +87,7 @@ header {
 .single-featured-content div {
   height: 100%;
   width: 100%;
+  padding-top: 80px;
   display: flex;
   justify-content: center;
   align-items: end;
@@ -94,8 +95,8 @@ header {
   border-top-right-radius: 50%;
 }
 .single-featured-content img {
-  width: 80%;
-  object-fit: cover;
+  width: 70%;
+  height: 100%;
 }
 .single-featured-content a {
   font-size: 1.5rem;
@@ -114,6 +115,7 @@ header {
   background-color: rgba(71, 125, 17, 0.15);
 }
 
+/* support section */
 .support {
   background-color: rgba(39, 39, 39, 0.05);
   display: flex;
@@ -212,4 +214,8 @@ footer {
 .footer-copyright {
   font-size: 1.125rem;
   color: rgba(255, 255, 255, 0.5);
+}
+
+.hide {
+  display: none;
 }
